@@ -79,10 +79,9 @@ A rota base para este módulo é `/caixa`.
 ---
 ## 📄 Documentação Completa
 
-Para uma visão mais detalhada da arquitetura e dos fluxos de trabalho, consulte a documentação completa.
+Para uma visão mais detalhada da arquitetura e dos fluxos de trabalho, consulte a documentação completa disponibilizada no diretório.
 
-[Acessar a documentação em PDF](./docs/seu-arquivo.pdf)
 
 ---
 
-Desenvolvido com ❤️ por [Seu Nome Aqui].
+Projeto Criado por Gemini + Lucas Eduardo.
