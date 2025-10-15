@@ -1,3 +1,4 @@
+// Arquivo: RegistroCaixaController.java
 package br.com.gestaofinanceira.sistema_gestao.caixa;
 
 import java.util.List;
@@ -12,9 +13,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController // Anotação que combina @Controller e @ResponseBody. Diz ao Spring que esta classe irá lidar com requisições web e retornar dados (JSON).
-@RequestMapping("/caixa") // Define que todos os endpoints nesta classe começarão com "/caixa". Ex: http://localhost:8080/caixa
+@RestController // Anotação que combina @Controller e @ResponseBody. Diz ao Spring que esta classe irá lidar com requisições
+// web e retornar dados (JSON).
+@RequestMapping("/caixa") // Define que todos os endpoints nesta classe começarão com "/caixa". Ex:
+// http://localhost:8080/caixa
 public class RegistroCaixaController {
+
     @Autowired // O Spring injeta a instância do nosso Service. O Controller DELEGA a lógica para o Service.
     private RegistroCaixaService registroCaixaService;
 
@@ -49,5 +53,4 @@ public class RegistroCaixaController {
         this.registroCaixaService.excluirRegistro(id);
         return ResponseEntity.ok().build(); // Retorna uma resposta de sucesso sem corpo.
     }
-
 }
