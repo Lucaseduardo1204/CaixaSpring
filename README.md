@@ -37,7 +37,7 @@ Siga os passos abaixo para executar a aplicação em seu ambiente local:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
+    git clone git@github.com:Lucaseduardo1204/CaixaSpring.git
     ```
 
 2.  **Navegue até o diretório do projeto:**
